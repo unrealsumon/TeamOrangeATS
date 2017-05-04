@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "SetupOrganization";
+    //ViewBag.Header = "Organization Setup";
+
+    Layout = "~/Views/_MainLayout.cshtml";
+}
+
+
+<form method="POST">
+    <div class="form-horizontal">
+ 
+
+            @Html.ValidationSummary()
+
+        <div class="card">
+            <div class="card-header" data-background-color="blue" >
+                <h4 class="title"> Organization Setup</h4>
+                </div>
+            <div class="card-content">
+            <div class="form-group label-floating ">
+                <div class="col-md-3 col-md-offset-2">
+                    <label class="control-label">Organization Name</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+         
+            <div class="form-group label-floating ">
+                <div class="col-md-3 col-md-offset-2">
+                    <label class="control-label">Short name</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group label-floating ">
+                <div class="col-md-3 col-md-offset-2">
+                    <label class="control-label">Location</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group label-floating ">
+                <div class="col-md-3 col-md-offset-2">
+                    <label class="control-label">Description</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-3" align="right">
+                    <input type="submit" value="Save" class="btn btn-info" />
+                </div>
+            </div>
+             
+            </div>
+</div>
+        </div>
+
+</form>
+
+
