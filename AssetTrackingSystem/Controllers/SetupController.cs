@@ -8,13 +8,17 @@ namespace AssetTrackingSystem.Controllers
 {
     public class SetupController : Controller
     {
-        // GET: Setup
+        //GET: Setup
         //public ActionResult Index()
-        //{
+
+        //{ 
+
         //    return View();
         //}
 
-        public ActionResult SetupOrganization()
+
+
+        public ActionResult SetupModules()
         {
             return View();
         }

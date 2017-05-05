@@ -1,7 +1,7 @@
 ﻿
 @{
-    ViewBag.Title = "SetupOrganization";
-    //ViewBag.Header = "Organization Setup";
+    ViewBag.Title = "Settings";
+    ViewBag.Header = "Settings";
 
     Layout = "~/Views/_MainLayout.cshtml";
 }
@@ -9,28 +9,33 @@
 
 <form method="POST">
     <div class="form-horizontal">
- 
 
-         <ul class="nav nav-tabs nav-justified">
-             <li>
-                 <a href="#organizationTab" data-toggle="tab">Organization</a>
-             </li>
 
-             <li>
-                 <a href="#branchTab" data-toggle="tab">Branch</a>
-             </li>
-             <li>
-                 <a href="#locationTab" data-toggle="tab">Location</a>
-             </li>
-          
-             <li>
-                 <a href="#gCategoryTab" data-toggle="tab">General Category</a>
-             </li>
+        <ul class="nav nav-tabs ">
+            <li>
+                <a href="#organizationTab" data-toggle="tab">Organization</a>
+            </li>
 
-             <li>
-                 <a href="#categoryTab" data-toggle="tab">Category</a>
-             </li>
-         </ul>
+            <li>
+                <a href="#branchTab" data-toggle="tab">Branch</a>
+            </li>
+            <li>
+                <a href="#locationTab" data-toggle="tab">Location</a>
+            </li>
+
+            <li>
+                <a href="#gCategoryTab" data-toggle="tab">G. Category</a>
+            </li>
+
+            <li>
+                <a href="#categoryTab" data-toggle="tab">Category</a>
+            </li>
+
+            <li>
+                <a href="#categoryTab" data-toggle="tab">User</a>
+            </li>
+
+        </ul>
         <br />
 
 
@@ -50,7 +55,7 @@
 
                         <div class="form-group label-floating ">
                             <div class="col-md-3 col-md-offset-2">
-                                <label class="control-label">Short name</label>
+                                <label class="control-label">Short Name</label>
                                 <input type="text" class="form-control">
                             </div>
                         </div>
@@ -71,7 +76,7 @@
 
                         <div class="form-group">
                             <div class="col-md-offset-2 col-md-3" align="right">
-                                <input type="submit" value="Save" class="btn btn-info" />
+                                <input type="submit" value="Save" class="btn btn-info"/>
                             </div>
                         </div>
 
@@ -109,11 +114,11 @@
                             </div>
                         </div>
 
-                       
+
 
                         <div class="form-group">
                             <div class="col-md-offset-2 col-md-3" align="right">
-                                <input type="submit" value="Save" class="btn btn-info" />
+                                <input type="submit" value="Save" class="btn btn-info"/>
                             </div>
                         </div>
 
@@ -124,23 +129,64 @@
 
 
             <div id="locationTab" class="tab-pane fade">
-                <h3>holsdfdsfla</h3>
+                <div class="card">
+                    <div class="card-header" data-background-color="blue">
+                        <h4 class="title"> Location Setup</h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="form-group label-floating ">
+                            <div class="col-md-3 col-md-offset-2">
+
+                                <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                        Dropdown Example
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">HTML</a></li>
+                                        <li><a href="#">CSS</a></li>
+                                        <li><a href="#">JavaScript</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group label-floating ">
+                            <div class="col-md-3 col-md-offset-2">
+                                <label class="control-label">Location Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group label-floating ">
+                            <div class="col-md-3 col-md-offset-2">
+                                <label class="control-label">Short Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-3" align="right">
+                                <input type="submit" value="Save" class="btn btn-info"/>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div id="gCategoryTab" class="tab-pane fade">
+                        <h3>holsdfffffdsfla</h3>
+                    </div>
+
+
+                    <div id="categoryTab" class="tab-pane fade">
+                        <h3>hollassssssdfdsf</h3>
+                    </div>
+                </div>
+
             </div>
 
-
-            <div id="gCategoryTab" class="tab-pane fade">
-                <h3>holsdfffffdsfla</h3>
-            </div>
-
-
-            <div id="categoryTab" class="tab-pane fade">
-                <h3>hollassssssdfdsf</h3>
-            </div>
         </div>
-
-
-       
-        </div>
+</div>
 
 </form>
 
