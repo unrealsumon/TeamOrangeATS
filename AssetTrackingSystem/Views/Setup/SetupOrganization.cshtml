@@ -11,49 +11,135 @@
     <div class="form-horizontal">
  
 
-            @Html.ValidationSummary()
+         <ul class="nav nav-tabs nav-justified">
+             <li>
+                 <a href="#organizationTab" data-toggle="tab">Organization</a>
+             </li>
 
-        <div class="card">
-            <div class="card-header" data-background-color="blue" >
-                <h4 class="title"> Organization Setup</h4>
-                </div>
-            <div class="card-content">
-            <div class="form-group label-floating ">
-                <div class="col-md-3 col-md-offset-2">
-                    <label class="control-label">Organization Name</label>
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-         
-            <div class="form-group label-floating ">
-                <div class="col-md-3 col-md-offset-2">
-                    <label class="control-label">Short name</label>
-                    <input type="text" class="form-control">
+             <li>
+                 <a href="#branchTab" data-toggle="tab">Branch</a>
+             </li>
+             <li>
+                 <a href="#locationTab" data-toggle="tab">Location</a>
+             </li>
+          
+             <li>
+                 <a href="#gCategoryTab" data-toggle="tab">General Category</a>
+             </li>
+
+             <li>
+                 <a href="#categoryTab" data-toggle="tab">Category</a>
+             </li>
+         </ul>
+        <br />
+
+
+        <div class="tab-content">
+            <div id="organizationTab" class="tab-pane fade in active">
+                <div class="card">
+                    <div class="card-header" data-background-color="blue">
+                        <h4 class="title"> Organization Setup</h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="form-group label-floating ">
+                            <div class="col-md-3 col-md-offset-2">
+                                <label class="control-label">Organization Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group label-floating ">
+                            <div class="col-md-3 col-md-offset-2">
+                                <label class="control-label">Short name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group label-floating ">
+                            <div class="col-md-3 col-md-offset-2">
+                                <label class="control-label">Location</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group label-floating ">
+                            <div class="col-md-3 col-md-offset-2">
+                                <label class="control-label">Description</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-3" align="right">
+                                <input type="submit" value="Save" class="btn btn-info" />
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
-            <div class="form-group label-floating ">
-                <div class="col-md-3 col-md-offset-2">
-                    <label class="control-label">Location</label>
-                    <input type="text" class="form-control">
+
+
+
+            <div id="branchTab" class="tab-pane fade">
+                <div class="card">
+                    <div class="card-header" data-background-color="blue">
+                        <h4 class="title"> Branch Setup</h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="form-group label-floating ">
+                            <div class="col-md-3 col-md-offset-2">
+                                <label class="control-label">Branch Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group label-floating ">
+                            <div class="col-md-3 col-md-offset-2">
+                                <label class="control-label">Short Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group label-floating ">
+                            <div class="col-md-3 col-md-offset-2">
+                                <label class="control-label">Branch Code</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                       
+
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-3" align="right">
+                                <input type="submit" value="Save" class="btn btn-info" />
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
-            <div class="form-group label-floating ">
-                <div class="col-md-3 col-md-offset-2">
-                    <label class="control-label">Description</label>
-                    <input type="text" class="form-control">
-                </div>
+
+
+            <div id="locationTab" class="tab-pane fade">
+                <h3>holsdfdsfla</h3>
             </div>
 
-            <div class="form-group">
-                <div class="col-md-offset-2 col-md-3" align="right">
-                    <input type="submit" value="Save" class="btn btn-info" />
-                </div>
+
+            <div id="gCategoryTab" class="tab-pane fade">
+                <h3>holsdfffffdsfla</h3>
             </div>
-             
+
+
+            <div id="categoryTab" class="tab-pane fade">
+                <h3>hollassssssdfdsf</h3>
             </div>
-</div>
+        </div>
+
+
+       
         </div>
 
 </form>
